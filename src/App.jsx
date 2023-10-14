@@ -4,7 +4,7 @@ function App({ list1, list2, list3 }) {
   return (<div>
     <h1>React Price Card</h1>
     <div className='full'>
-  <div className='card'>
+ <div id='inside'> <div className='card'>
     <p className='plus' id='free'>FREE</p>
     <h1 id='month'>$0/month</h1>
     <ul id='unorder'>
@@ -45,7 +45,7 @@ function App({ list1, list2, list3 }) {
      }
     </ul>
     <button>Button</button>
-  </div>
+  </div></div>
 </div></div>
   )
 }

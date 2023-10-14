@@ -41,6 +41,12 @@ p{
 #month{
     margin-bottom: 25px;
 }
+#inside{
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 4%;
+}
 @media only screen and (max-width: 600px) {
     body {
         display: flex;

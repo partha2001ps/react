@@ -1,0 +1,58 @@
+body{
+    height: 100%vh;
+    width: 100%vw;
+}
+.card{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 2%;
+    background-color:white ;
+    width: 26%;
+   
+}
+#unorder{
+    list-style-type: none;
+    padding-left: 10px;
+   
+}
+.full{ 
+    background-color: rgb(8, 181, 255);
+}
+button{
+  width: 100%;
+border-radius: 10px;
+background:  rgb(8, 181, 255);
+height: 35px;
+font-size: 15px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(149, 148, 147);
+}
+.plus{
+    text-align: center;
+}
+#month{
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  .card {
+        width: 70vw;
+        margin: 10vw;
+        margin-right: 7vw;
+        margin-bottom: 1vh;
+        padding: 10px;
+    }
+}
+
